@@ -1,0 +1,39 @@
+MVC  and MVVM in React-
+____________________________________
+
+
+MVC (Model-View-Controller) in React
+The MVC pattern divides an application into three interconnected components:Wikipedia+2Sourcebae+2GeeksforGeeks+2
+* Model: Manages the data and business logic. In React, this is often handled by state management solutions like Redux, Context API, or custom hooks.
+* View: Responsible for the UI. React components serve as the View, rendering the user interface based on the current state.Sourcebae+1Reddit+1
+* Controller: Handles user input and interactions, updating the Model accordingly. In React, this role is typically fulfilled by event handlers and functions within components.
+While React doesn't strictly follow the MVC pattern, developers can structure their applications in an MVC-like manner to separate concerns and improve maintainability.
+
+
+
+
+Model - handles business and data logic  ex. Redux etc
+
+View - responsible for the ui
+
+
+Controller - handles user interactions and updating moeklas , like event handlers.
+
+
+____________________________-
+
+
+MVVM (Model-View-ViewModel) in React
+The MVVM pattern consists of:DEV Community+5DEV Community+5Expert App Devs+5
+* Model: Represents the application's data and business logic, similar to the Model in MVC.Medium+6DEV Community+6Sourcebae+6
+* View: The UI layer, which in React is composed of components that render the interface and handle user interactions.
+* ViewModel: Acts as an intermediary between the Model and the View, managing the application's state and logic. In React, the ViewModel can be implemented using custom hooks or context providers that encapsulate stateful logic and expose data and actions to the View.Reddit
+Adopting the MVVM pattern in React can lead to a more modular and testable codebase, as it promotes a clear separation between the UI and the underlying logic.
+
+Choosing Between MVC and MVVM in React
+React's flexibility allows developers to adopt architectural patterns that best fit their application's needs:
+* MVC: May be suitable for applications where a clear separation between data, UI, and control logic is desired, and where the Controller's role is explicitly defined.Sourcebae
+* MVVM: Often preferred in React applications due to its alignment with React's component-based architecture and the ease of implementing ViewModels using hooks and context.
+Ultimately, the choice between MVC and MVVM in React depends on the specific requirements and complexity of the application.
+
+
